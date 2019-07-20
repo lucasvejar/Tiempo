@@ -16,6 +16,10 @@ class C_Registro extends CI_Controller {
         $this -> load -> view('plantilla/footer');
     }
 
+    function registrar()
+    {
+        
+    }
 
 }
 

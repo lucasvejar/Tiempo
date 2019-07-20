@@ -26,7 +26,7 @@ class C_InicioSesion extends CI_Controller {
 
 	public function InicioSesion(){
 		$user = $this -> input -> post('usuario');
-		$pass = $this -> input -> post('contraseña');
+		$pass = $this -> input -> post('password');
 		$usuario = $this->usuario->IniciarSesion($user,$pass);
 		if ($usuario) {
 			$this->session->set_userdata($usuario);
@@ -42,7 +42,7 @@ class C_InicioSesion extends CI_Controller {
 		foreach ($this->session->all_userdata() as $key => $value) {
 			$this->session->unset_userdata($key);
 		}
-		redirect(base_url());
+		redirect(base_url('index.php/C_InicioSesion'));
 	}
 
 

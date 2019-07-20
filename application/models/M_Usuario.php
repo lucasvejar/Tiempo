@@ -12,7 +12,6 @@ class M_Usuario extends CI_Model {
 
 
 	function init($row){
-		
 		$this->id_usuario = $row->id_usuario;
 		$this->password = $row->password;
 		$this->nombre_usuario = $row->nombre_usuario;

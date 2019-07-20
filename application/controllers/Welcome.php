@@ -21,7 +21,7 @@ class Welcome extends CI_Controller {
 	public function index()
 	{
 		$this -> load -> view('plantilla/header');
-		$this->load->view('C_InicioSesion');
+		$this->load->view('V_InicioSesion');
 		$this -> load -> view('plantilla/footer');
 	}
 }
