@@ -19,10 +19,10 @@ class M_Usuario extends CI_Model {
 	}
 	
 
-	function obtenerUno($dni)
+	function obtenerUno($email)
     {
 		$this->db->from('usuario');
-		$this->db-> where('dni_usuario', $dni);
+		$this->db-> where('email_usuario', $email);
 		$query = $this->db->get();
 
 		if ($query->num_rows() == 1) {
@@ -51,10 +51,9 @@ class M_Usuario extends CI_Model {
 		}
 	}
 
-	function existeUsuario($dni,$email)
+	function existeUsuario($email)
 	{
 		$this-> db -> from('usuario');
-		$this-> db -> where('dni_usuario',$dni);
 		$this-> db -> where('email_usuario',$email);
 		$query = $this -> db -> get();
 		if ($query->num_rows()>0) {

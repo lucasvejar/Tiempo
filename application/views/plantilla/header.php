@@ -9,13 +9,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <link rel="stylesheet" href="<?= base_url() ?>assets/bootstrap/css/bootstrap.css" >
 	<link rel="stylesheet" href="<?= base_url() ?>assets/css/style.css">
 	<link rel="stylesheet" href="<?= base_url() ?>assets/css/styleLogin.css" >
+	<link rel="stylesheet" href="<?=  base_url() ?>assets/fontawesome/css/all.css">
 
 	<!--Jquery , Bootstrap js-->
 	<script src="<?= base_url() ?>assets/js/jquery_min.js" ></script>
 	<script src="<?= base_url() ?>assets/bootsrap/js/bootstrap.min.js" ></script>
 
 	
-	<title>Tiempo</title>
+	<title>🌡 Wheather Report</title>
 </head>
 <body>
 <div class="jumbotron jumbotron-fluid">

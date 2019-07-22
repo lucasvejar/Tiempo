@@ -3,7 +3,7 @@
 			<div class="col"></div>
 			<div class="col-9 card loginCard my-5">
 				<center>
-				<h1 class="text-white mt-3 tituloLogin"><i class="fas fa-user"></i><b> Información del clima</b></h1>
+				<h1 class="text-white mt-3 tituloLogin"><i class="fas fa-sun"></i> <b> Información del clima </b><i class="fas fa-cloud"></i></h1>
 				<hr class="my-2" >
 				<form class="form-inline my-3" >
                 <div class="container">
